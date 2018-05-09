@@ -1,0 +1,80 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="page">
+
+    <view class="page__hd">
+      <view class="page__title">信息素养教育</view>
+    </view>
+
+    <view class="page__bd">
+      <view class="weui-cells weui-cells_after-title">
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">类别</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="category" bindchange="bindPickerChange" value="{{index}}" range="{{category}}">
+              <view class="weui-input">{{category[index]}}</view>
+            </picker>
+          </view>
+        </view>
+
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">课程/竞赛名称</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="courseName" placeholder="请输入名称" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">面向对象</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="object" placeholder="请输入对象" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">班级数</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="classSum" placeholder="请输入班级数" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">学生数</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="studentSum" placeholder="请输入学生数" />
+          </view>
+        </view>
+
+  
+            <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">年份</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="year" bindchange="bindPickerChange1" value="{{index1}}" range="{{year}}">
+              <view class="weui-input">{{year[index1]}}</view>
+            </picker>
+          </view>
+        </view>
+              </view>
+
+      <view class="button-sp-area">
+        <button class="weui-btn" type="primary" plain="true" formType="submit">提交</button>
+        <button class="weui-btn" type="primary" plain="true" formType="reset">取消</button>
+      </view>
+    </view>
+  </view>
+
+</form>

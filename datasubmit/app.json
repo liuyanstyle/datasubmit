@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/zlwhhd/zlwhhd",
+    "pages/xxsyjy/xxsyjy",
+    "pages/wechatyy/wechatyy",
+    "pages/qwcd/qwcd",
+    "pages/kjcxcscy/kjcxcscy",
+    "pages/hzjl/hzjl",
+    "pages/kjsy/kjsy",
+    "pages/zyjs/zyjs",
+    "pages/webvisit/webvisit",
+    "pages/cjhy/cjhy"
+    
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
