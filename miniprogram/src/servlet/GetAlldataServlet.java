@@ -53,17 +53,17 @@ public class GetAlldataServlet extends HttpServlet {
 
 
         PrintWriter out =response.getWriter();
-        JSONObject alldate=new JSONObject();
-        alldate.put("hzjl",hzjls);
-        alldate.put("kjcxcscy ",kjcxcscys);
-        alldate.put("qwcd",qwcds);
-        alldate.put("webvisit",webvisits);
-        alldate.put("wechatyy",wechatyys);
-        alldate.put("xxsyjy",xxsyjys);
-        alldate.put("zlwhhd",zlwhhds);
-        alldate.put("zyjs",zyjss);
-        alldate.put("kjsy",kjsys);
-        out.print(alldate);
+        JSONObject alldata=new JSONObject();
+        alldata.put("hzjl",hzjls);
+        alldata.put("kjcxcscy ",kjcxcscys);
+        alldata.put("qwcd",qwcds);
+        alldata.put("webvisit",webvisits);
+        alldata.put("wechatyy",wechatyys);
+        alldata.put("xxsyjy",xxsyjys);
+        alldata.put("zlwhhd",zlwhhds);
+        alldata.put("zyjs",zyjss);
+        alldata.put("kjsy",kjsys);
+        out.print(alldata);
 
 
     }

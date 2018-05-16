@@ -3,6 +3,7 @@
 
     <view class="page__hd">
       <view class="page__title">资源建设</view>
+       <view class="weui-label">操作员:</view>
     </view>
 
     <view class="page__bd">
@@ -52,6 +53,7 @@
         <view class="weui-cell weui-cell_input weui-cell_vcode">
           <view class="weui-cell__hd">
             <view class="weui-label">使用经费</view>
+             <view class="weui-label">操作员:</view>
           </view>
           <view class="weui-cell__bd">
             <input class="weui-input" name="money" placeholder="请输入经费" />

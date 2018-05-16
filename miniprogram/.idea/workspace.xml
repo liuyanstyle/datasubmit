@@ -48,76 +48,6 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="cbhy/jz: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="cjhy: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="dj&amp;gh: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="dzjg: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="dzzyfw: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="fljy-: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="grdgtop100: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="grjytop100: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="hjqk: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="hzjl: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="[datasubmit]: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="kjcxcscy: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
@@ -254,32 +184,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cjhy" pinned="false" current-in-tab="false">
-        <entry file="das://6edecc14-ad22-45fb-8504-a52e3db66c8e/schema/[datasubmit]/table/cjhy">
+      <file leaf-file-name="hzjl" pinned="false" current-in-tab="true">
+        <entry file="das://6edecc14-ad22-45fb-8504-a52e3db66c8e/schema/[datasubmit]/table/hzjl">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xkfw" pinned="false" current-in-tab="true">
-        <entry file="das://6edecc14-ad22-45fb-8504-a52e3db66c8e/schema/[datasubmit]/table/xkfw">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CjhyServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/CjhyServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -321,6 +230,7 @@
       <find>kjcscscy</find>
       <find>Hzjl</find>
       <find>hzjl</find>
+      <find>date</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -346,7 +256,6 @@
         <option value="$PROJECT_DIR$/src/servlet/KjsyServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/QwcdServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/WebvisitServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/GetAlldataServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/WechatyyServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/ZyjsServlet.java" />
         <option value="$PROJECT_DIR$/src/dao/HzjlDAO.java" />
@@ -362,6 +271,7 @@
         <option value="$PROJECT_DIR$/src/dao/CjhyDAO.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/servlet/CjhyServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/GetAlldataServlet.java" />
       </list>
     </option>
   </component>
@@ -388,94 +298,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-135" />
-    <option name="y" value="21" />
+    <option name="x" value="-158" />
+    <option name="y" value="113" />
     <option name="width" value="1366" />
-    <option name="height" value="747" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="bean" type="cbb8eebc:String" user="bean" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="dao" type="cbb8eebc:String" user="dao" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="servlet" type="cbb8eebc:String" user="servlet" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
-              <item name="WebContent" type="cbb8eebc:String" user="WebContent" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
-              <item name="WebContent" type="cbb8eebc:String" user="WebContent" />
-              <item name="META-INF" type="cbb8eebc:String" user="META-INF" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
-              <item name="WebContent" type="cbb8eebc:String" user="WebContent" />
-              <item name="WEB-INF" type="cbb8eebc:String" user="WEB-INF" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="miniprogram" type="58d84e3e:PackageViewProjectNode" />
-              <item name="miniprogram" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="miniprogram" type="58d84e3e:PackageViewProjectNode" />
-              <item name="miniprogram" type="616d4139:PackageViewModuleNode" />
-              <item name="bean" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="miniprogram" type="58d84e3e:PackageViewProjectNode" />
-              <item name="miniprogram" type="616d4139:PackageViewModuleNode" />
-              <item name="dao" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="miniprogram" type="58d84e3e:PackageViewProjectNode" />
-              <item name="miniprogram" type="616d4139:PackageViewModuleNode" />
-              <item name="servlet" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -526,6 +358,61 @@
             <path>
               <item name="miniprogram" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="miniprogram" type="58d84e3e:PackageViewProjectNode" />
+              <item name="miniprogram" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="miniprogram" type="58d84e3e:PackageViewProjectNode" />
+              <item name="miniprogram" type="616d4139:PackageViewModuleNode" />
+              <item name="bean" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="miniprogram" type="58d84e3e:PackageViewProjectNode" />
+              <item name="miniprogram" type="616d4139:PackageViewModuleNode" />
+              <item name="dao" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="miniprogram" type="58d84e3e:PackageViewProjectNode" />
+              <item name="miniprogram" type="616d4139:PackageViewModuleNode" />
+              <item name="servlet" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
+              <item name="WebContent" type="cbb8eebc:String" user="WebContent" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
+              <item name="WebContent" type="cbb8eebc:String" user="WebContent" />
+              <item name="META-INF" type="cbb8eebc:String" user="META-INF" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="miniprogram" type="cbb8eebc:String" user="miniprogram" />
+              <item name="WebContent" type="cbb8eebc:String" user="WebContent" />
+              <item name="WEB-INF" type="cbb8eebc:String" user="WEB-INF" />
             </path>
           </expand>
           <select />
@@ -730,11 +617,15 @@
       <workItem from="1525842737288" duration="7000" />
       <workItem from="1525868025020" duration="2668000" />
       <workItem from="1525870978419" duration="355000" />
+      <workItem from="1525871902575" duration="359000" />
+      <workItem from="1525874011681" duration="20000" />
+      <workItem from="1526452034018" duration="390000" />
+      <workItem from="1526457350337" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73498000" />
+    <option name="totallyTimeSpent" value="74272000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,37 +637,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-135" y="21" width="1366" height="747" extended-state="0" />
+    <frame x="-158" y="113" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3778651" side_tool="true" weight="0.23798883" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4990177" weight="0.3273743" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3290735" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.25981873" />
-      <window_info id="Structure" order="1" sideWeight="0.50398934" side_tool="true" weight="0.14217253" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24871" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983628" weight="0.35530725" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3273743" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6221349" weight="0.38449112" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3778651" side_tool="true" weight="0.23798883" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4990177" weight="0.3273743" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3290735" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6221349" weight="0.38373983" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3273743" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.27400216" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49601063" visible="true" weight="0.20921451" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49601063" visible="true" weight="0.2212991" />
       <window_info id="Web" order="2" sideWeight="0.50252527" side_tool="true" weight="0.24976437" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.16012084" />
+      <window_info id="Structure" order="1" sideWeight="0.50398934" side_tool="true" weight="0.14217253" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24848942" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.50398934" side_tool="true" weight="0.14217253" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.34248787" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.27400216" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32849163" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -852,13 +743,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://6edecc14-ad22-45fb-8504-a52e3db66c8e/schema/[datasubmit]/table/kjcx&amp;amp;cscy">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://6edecc14-ad22-45fb-8504-a52e3db66c8e/schema/[datasubmit]/table/kjcx&amp;amp;cscy" />
     <entry file="file://$PROJECT_DIR$/src/bean/Qwcd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -955,13 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://6edecc14-ad22-45fb-8504-a52e3db66c8e/schema/[datasubmit]/table/hzjl">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1070,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/GetAlldataServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/HzjlServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1098,20 +969,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/CjhyServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/QwcdDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6edecc14-ad22-45fb-8504-a52e3db66c8e/schema/[datasubmit]/table/xkfw">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/CjhyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -1122,7 +997,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://6edecc14-ad22-45fb-8504-a52e3db66c8e/schema/[datasubmit]/table/xkfw">
+    <entry file="file://$PROJECT_DIR$/src/servlet/GetAlldataServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6edecc14-ad22-45fb-8504-a52e3db66c8e/schema/[datasubmit]/table/hzjl">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />

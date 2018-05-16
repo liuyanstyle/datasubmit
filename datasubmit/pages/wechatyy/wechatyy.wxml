@@ -3,6 +3,7 @@
 
      <view class="page__hd">
       <view class="page__title">微信运营</view>
+       <view class="weui-label">操作员:</view>
     </view>
 
       <view class="page__bd">
