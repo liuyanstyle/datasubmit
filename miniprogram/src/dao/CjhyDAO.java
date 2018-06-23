@@ -29,18 +29,30 @@ public class CjhyDAO {
 
     public void add(Cjhy cjhy) {
 
+<<<<<<< HEAD
         String sql = "insert into cjhy values(null,?,?,?,?,?,?)";
+=======
+        String sql = "insert into cjhy values(null,?,?,?,?,?)";
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
         try (Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);) {
 
             Date day=new Date();
             SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 
+<<<<<<< HEAD
             ps.setString(1,cjhy.year);
             ps.setString(2, cjhy.name);
             ps.setString(3, cjhy.date);
             ps.setString(4, cjhy.site);
             ps.setString(5, cjhy.peopleList);
             ps.setString(6,df.format(day));
+=======
+            ps.setString(1, cjhy.name);
+            ps.setString(2, cjhy.date);
+            ps.setString(3, cjhy.site);
+            ps.setString(4, cjhy.peopleList);
+            ps.setString(5,df.format(day));
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
 
             ps.execute();
 
@@ -69,6 +81,7 @@ public class CjhyDAO {
 
             while (rs.next()) {
                 Cjhy cjhy = new Cjhy();
+<<<<<<< HEAD
                 String year=rs.getString(2);
                 int id = rs.getInt(1);
                 String name = rs.getString(3);
@@ -77,6 +90,14 @@ public class CjhyDAO {
                 String peopleList = rs.getString(6);
 
                 cjhy.setYear(year);
+=======
+                int id = rs.getInt(1);
+                String name = rs.getString(2);
+                String date= rs.getString(3);
+                String site=rs.getString(4);
+                String peopleList = rs.getString(5);
+
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
                 cjhy.setId(id);
                 cjhy.setName(name);
                 cjhy.setDate(date);

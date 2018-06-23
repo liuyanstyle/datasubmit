@@ -39,6 +39,7 @@ public class Cjhy {
     public String peopleList;
     public int id;
 
+<<<<<<< HEAD
     public String getYear() {
         return year;
     }
@@ -49,6 +50,8 @@ public class Cjhy {
 
     public String year;
 
+=======
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
     public int getId() {
         return id;
     }

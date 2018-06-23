@@ -2,6 +2,7 @@
   "pages": [
     
     "pages/index",
+<<<<<<< HEAD
     "pages/cbhy_jz/cbhy_jz",
     "pages/cjhy/cjhy",
     "pages/dj&gh/dj&gh",
@@ -22,6 +23,20 @@
     "pages/zyjs/zyjs"
 
     
+=======
+    "pages/zlwhhd/zlwhhd",
+    "pages/xxsyjy/xxsyjy",
+    "pages/wechatyy/wechatyy",
+    "pages/qwcd/qwcd",
+    "pages/kjcxcscy/kjcxcscy",
+    "pages/hzjl/hzjl",
+    "pages/kjsy/kjsy",
+    "pages/zyjs/zyjs",
+    "pages/webvisit/webvisit",
+    "pages/cjhy/cjhy"
+    
+   
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
   ],
   "window": {
     "backgroundTextStyle": "light",

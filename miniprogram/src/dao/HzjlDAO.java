@@ -29,12 +29,17 @@ public class HzjlDAO {
 
     public void add(Hzjl hzjl) {
 
+<<<<<<< HEAD
         String sql = "insert into hzjl values(null,?,?,?,?,?,?,?)";
+=======
+        String sql = "insert into hzjl values(null,?,?,?,?,?,?)";
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
         try (Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);) {
 
             Date day=new Date();
             SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 
+<<<<<<< HEAD
             ps.setString(1,hzjl.year);
             ps.setString(2, hzjl.unitname);
             ps.setString(3, hzjl.chattime);
@@ -42,6 +47,14 @@ public class HzjlDAO {
             ps.setString(5, hzjl.peopelList);
             ps.setString(6, hzjl.category);
             ps.setString(7,df.format(day));
+=======
+            ps.setString(1, hzjl.unitname);
+            ps.setString(2, hzjl.chattime);
+            ps.setInt(3, hzjl.peopelNum);
+            ps.setString(4, hzjl.peopelList);
+            ps.setString(5, hzjl.category);
+            ps.setString(6,df.format(day));
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
 
             ps.execute();
 
@@ -70,6 +83,7 @@ public class HzjlDAO {
 
             while (rs.next()) {
                 Hzjl hzjl = new Hzjl();
+<<<<<<< HEAD
                 String year=rs.getString(1);
                 int id = rs.getInt(2);
                 String unitname = rs.getString(3);
@@ -79,6 +93,15 @@ public class HzjlDAO {
                 String category= rs.getString(7);
 
                 hzjl.setYear(year);
+=======
+                int id = rs.getInt(1);
+                String unitname = rs.getString(2);
+                String chattime = rs.getString(3);
+                int peopelNum = rs.getInt(4);
+                String peopelList = rs.getString(5);
+                String category= rs.getString(6);
+
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
                 hzjl.setId(id);
                 hzjl.setCategory(category);
                 hzjl.setChattime(chattime);

@@ -1,6 +1,10 @@
 <view class="page">
     <view class="page__hd">
+<<<<<<< HEAD
         <view class="page__title">年度报表提交</view>
+=======
+        <view class="page__title">微信小程序</view>
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
     </view>
     <view class="page__bd page__bd_spacing">
         <view class="kind-list">
@@ -8,7 +12,11 @@
                 <view class="kind-list__item">
                     <view id="{{item.id}}" class="weui-flex kind-list__item-hd {{item.open ? 'kind-list__item-hd_show' : ''}}" bindtap="kindToggle">
                         <view class="weui-flex__item">{{item.name}}</view>
+<<<<<<< HEAD
                         <image class="kind-list__img" src=""></image>
+=======
+                        <image class="kind-list__img" src="images/icon_nav_{{item.id}}.png"></image>
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
                     </view>
                     <view class="kind-list__item-bd {{item.open ? 'kind-list__item-bd_show' : ''}}">
                         <view class="weui-cells {{item.open ? 'weui-cells_show' : ''}}">

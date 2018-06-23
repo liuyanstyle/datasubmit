@@ -1,8 +1,12 @@
 Page({
   data: {
+<<<<<<< HEAD
     date: '2018-06-01',
     year: ['2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026'],
     index2: 0
+=======
+    date: '2018-06-01'
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
   },
 
 
@@ -12,19 +16,25 @@ Page({
     })
   },
 
+<<<<<<< HEAD
   bindPickerChange2: function (e) {
     this.setData({
       index2: e.detail.value
     })
   },
 
+=======
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
 
 
 
   formSubmit: function (e) {
     var that = this;
     var formData = e.detail.value;
+<<<<<<< HEAD
     formData.year = this.data.year[formData.year];
+=======
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
     console.log(formData);
     
     wx.showModal({

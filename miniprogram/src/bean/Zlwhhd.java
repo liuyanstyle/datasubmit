@@ -8,6 +8,7 @@ public class Zlwhhd {
     public String appertainBrands;
     public int appertainPeriod;
     public int peopelSum;
+<<<<<<< HEAD
 
     public String getYear() {
         return year;
@@ -19,6 +20,9 @@ public class Zlwhhd {
 
     public String note;
     public String year;
+=======
+    public String note;
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
 
     public int getId() {
         return id;

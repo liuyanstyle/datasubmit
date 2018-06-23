@@ -30,8 +30,11 @@ public class ZyjsDAO {
         String sql = "insert into zyjs values(null,?,?,?,?,?,?,?,?,?,?,?,?)";
         try (Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);) {
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
             ps.setString(1, zyjs.year);
             ps.setString(2, zyjs.category);
             ps.setString(3, zyjs.type);

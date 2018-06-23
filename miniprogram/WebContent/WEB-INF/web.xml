@@ -3,7 +3,11 @@
 
   
   
+<<<<<<< HEAD
   <servlet>
+=======
+    <servlet>
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
     <servlet-name>WebvisitServlet</servlet-name>
     <servlet-class>servlet.WebvisitServlet</servlet-class>
   </servlet>
@@ -106,6 +110,7 @@
     <url-pattern>/cjhy</url-pattern>
   </servlet-mapping>
 
+<<<<<<< HEAD
   <servlet>
     <servlet-name>Cbhy_jzServlet</servlet-name>
     <servlet-class>servlet.Cbhy_jzServlet</servlet-class>
@@ -188,6 +193,8 @@
     <url-pattern>/hjqk</url-pattern>
   </servlet-mapping>
 
+=======
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
 
 
 </web-app>

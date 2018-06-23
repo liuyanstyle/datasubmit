@@ -19,7 +19,10 @@ public class ZlwhhdServlet extends HttpServlet {
 
         Zlwhhd zlwhhd = new Zlwhhd();
 
+<<<<<<< HEAD
         zlwhhd.setYear(request.getParameter("year"));
+=======
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
         zlwhhd.setDate(request.getParameter("date"));
         zlwhhd.setCategory(request.getParameter("category"));
         zlwhhd.setTheme(request.getParameter("theme"));

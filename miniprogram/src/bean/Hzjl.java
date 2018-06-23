@@ -7,6 +7,7 @@ public class Hzjl {
     public int peopelNum;
     public String peopelList;
     public String category;
+<<<<<<< HEAD
     public String year;
 
     public String getYear() {
@@ -16,6 +17,8 @@ public class Hzjl {
     public void setYear(String year) {
         this.year = year;
     }
+=======
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
 
     public void setId(int id) {
         this.id = id;

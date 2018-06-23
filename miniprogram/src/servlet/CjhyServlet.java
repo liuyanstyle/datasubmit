@@ -19,7 +19,10 @@ public class CjhyServlet extends HttpServlet {
 
         Cjhy cjhy = new Cjhy();
 
+<<<<<<< HEAD
         cjhy.setYear(request.getParameter("year"));
+=======
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
         cjhy.setName(request.getParameter("name"));
         cjhy.setDate(request.getParameter("date"));
         cjhy.setSite(request.getParameter("site"));

@@ -19,7 +19,10 @@ public class HzjlServlet extends HttpServlet {
 
         Hzjl hzjl = new Hzjl();
 
+<<<<<<< HEAD
         hzjl.setYear(request.getParameter("year"));
+=======
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
         hzjl.setUnitname(request.getParameter("unitname"));
         hzjl.setChattime(request.getParameter("chattime"));
         hzjl.setPeopelNum(Integer.parseInt((request.getParameter("peopelNum"))));

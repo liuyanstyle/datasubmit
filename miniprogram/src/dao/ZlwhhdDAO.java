@@ -29,12 +29,17 @@ public class ZlwhhdDAO {
 
     public void add(Zlwhhd zlwhhd) {
 
+<<<<<<< HEAD
         String sql = "insert into zlwhhd values(null,?,?,?,?,?,?,?,?,?)";
+=======
+        String sql = "insert into zlwhhd values(null,?,?,?,?,?,?,?,?)";
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
         try (Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);) {
 
             Date day=new Date();
             SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 
+<<<<<<< HEAD
             ps.setString(1,zlwhhd.year);
             ps.setString(2, zlwhhd.date);
             ps.setString(3, zlwhhd.category);
@@ -44,6 +49,16 @@ public class ZlwhhdDAO {
             ps.setInt(7, zlwhhd.peopelSum);
             ps.setString(8, zlwhhd.note);
             ps.setString(9,df.format(day));
+=======
+            ps.setString(1, zlwhhd.date);
+            ps.setString(2, zlwhhd.category);
+            ps.setString(3, zlwhhd.theme);
+            ps.setString(4, zlwhhd.appertainBrands);
+            ps.setInt(5, zlwhhd.appertainPeriod);
+            ps.setInt(6, zlwhhd.peopelSum);
+            ps.setString(7, zlwhhd.note);
+            ps.setString(8,df.format(day));
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
 
             ps.execute();
 
@@ -73,6 +88,7 @@ public class ZlwhhdDAO {
             while (rs.next()) {
                 Zlwhhd zlwhhd = new Zlwhhd();
 
+<<<<<<< HEAD
                 zlwhhd.setYear(rs.getString(1));
                 zlwhhd.setId(rs.getInt(2));
                 zlwhhd.setDate(rs.getString(3));
@@ -82,6 +98,16 @@ public class ZlwhhdDAO {
                 zlwhhd.setAppertainPeriod(rs.getInt(7));
                 zlwhhd.setPeopelSum(rs.getInt(8));
                 zlwhhd.setNote(rs.getString(9));
+=======
+                zlwhhd.setId(rs.getInt(1));
+                zlwhhd.setDate(rs.getString(2));
+                zlwhhd.setCategory(rs.getString(3));
+                zlwhhd.setTheme(rs.getString(4));
+                zlwhhd.setAppertainBrands(rs.getString(5));
+                zlwhhd.setAppertainPeriod(rs.getInt(6));
+                zlwhhd.setPeopelSum(rs.getInt(7));
+                zlwhhd.setNote(rs.getString(8));
+>>>>>>> 47a8143bb6fe0c953270471544ef19fb139754a5
 
 
                 zlwhhds.add(zlwhhd);
