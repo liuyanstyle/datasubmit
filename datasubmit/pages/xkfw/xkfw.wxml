@@ -1,0 +1,73 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="page">
+    <view class="page__hd">
+      <view class="page__title">学科服务</view>
+    </view>
+    <view class="page__bd">
+
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">学科馆员人数</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="peopleNum" placeholder="请输入人数" />
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">开展服务次数</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="serviceTime" placeholder="请输入服务次数" />
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">决策支持次数</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="decisionTime" placeholder="请输入服务次数" />
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">年份</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="year" mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+              <view class="weui-input">
+                {{multiArray[0][multiIndex[0]]}} {{multiArray[1][multiIndex[1]]}}
+              </view>
+            </picker>
+          </view>
+        </view>
+      </view>
+
+      <view class="weui-cells__title">服务主题</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <textarea name="serverTheme" class="weui-textarea" placeholder="请输入服务主题" style="height: 3.3em" />
+            <view class="weui-textarea-counter">0/200</view>
+          </view>
+        </view>
+      </view>
+      <view class="weui-cells__title">决策主题</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <textarea name="decisionTheme" class="weui-textarea" placeholder="请输入决策主题" style="height: 3.3em" />
+            <view class="weui-textarea-counter">0/200</view>
+          </view>
+        </view>
+      </view>
+      <view class="button-sp-area">
+        <button type="primary" class="weui-btn" plain="true" formType="submit">提交</button>
+        <button type="primary" class="weui-btn" plain="true" formType="reset">取消</button>
+      </view>
+    </view>
+  </view>
+</form>

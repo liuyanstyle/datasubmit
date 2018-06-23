@@ -1,0 +1,106 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="page">
+
+     <view class="page__hd">
+      <view class="page__title">微信运营</view>
+       <view class="weui-label">操作员:</view>
+    </view>
+
+      <view class="page__bd">
+        <view class="weui-cells weui-cells_after-title">
+
+
+
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+              <view class="weui-label">粉丝总数</view>
+            </view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="FanceSum" placeholder="请输入粉丝数" />
+            </view>
+          </view>
+
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+              <view class="weui-label">新增粉丝数</view>
+            </view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="addedFance" placeholder="请输入新增数" />
+            </view>
+          </view>
+
+
+
+          <view class="weui-cell weui-cell_input weui-cell_vcode">
+            <view class="weui-cell__hd">
+              <view class="weui-label">推送微信</view>
+            </view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="pushTimes" placeholder="请输入次数" />
+            </view>
+            <view class="weui-cell__vcode">
+              <view class="weui-label">次</view>
+            </view>
+          </view>
+
+          <view class="weui-cell weui-cell_input weui-cell_vcode">
+            <view class="weui-cell__hd">
+              <view class="weui-label">原创素材</view>
+            </view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="material" placeholder="请输入篇数" />
+            </view>
+            <view class="weui-cell__vcode">
+              <view class="weui-label">篇</view>
+            </view>
+          </view>
+
+          <view class="weui-cell weui-cell_input weui-cell_vcode">
+            <view class="weui-cell__hd">
+              <view class="weui-label">消息发送</view>
+            </view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="messageSend" placeholder="请输入次数" />
+            </view>
+            <view class="weui-cell__vcode">
+              <view class="weui-label">次</view>
+            </view>
+          </view>
+
+
+          <view class="weui-cell weui-cell_input weui-cell_vcode">
+            <view class="weui-cell__hd">
+              <view class="weui-label">消息分享转发</view>
+            </view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="messageShare" placeholder="请输入次数" />
+            </view>
+            <view class="weui-cell__vcode">
+              <view class="weui-label">次</view>
+            </view>
+          </view>
+
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+              <view class="weui-label">年份</view>
+            </view>
+            <view class="weui-cell__bd">
+              <picker name="year" mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+                <view class="weui-input">
+                  {{multiArray[0][multiIndex[0]]}} {{multiArray[1][multiIndex[1]]}}
+                </view>
+              </picker>
+            </view>
+          </view>
+
+
+        </view>
+
+        <view class="button-sp-area">
+          <button class="weui-btn" type="primary" plain="true" formType="submit">提交</button>
+          <button class="weui-btn" type="primary" plain="true" formType="reset">取消</button>
+        </view>
+      </view>
+    </view>
+
+</form>

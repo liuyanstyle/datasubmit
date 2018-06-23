@@ -1,0 +1,140 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="page">
+        <view class="page__hd">
+            <view class="page__title">人才队伍建设</view>
+            <view class="weui-label">操作员:</view>
+        </view>
+        <view class="page__bd">
+            <view class="weui-cells weui-cells_after-title">
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">部门</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <picker name="category" bindchange="bindPickerChange" value="{{index}}" range="{{category}}">
+                            <view class="weui-input">{{category[index]}}</view>
+                        </picker>
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">总人数</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="peopleNum" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">博士人数</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="doctorNum" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">硕士人数</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="masterNum" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">本科人数</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="undergraduateNum" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">其他学历</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="otherEducation" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">正高级</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="highProfessionNum" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">副高级</view>
+                    </view>
+                    <view class="weui-cell__bt">
+                        <input class="weui-input" name="deputyHighNum" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">中级</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="intermediateNum" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">其他职称</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="otherTitle" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">56-65岁</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="age1" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">46-55岁</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="age2" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">36-45岁</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="age3" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">25-35岁</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="age4" placeholder="请输入人数" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__hd">
+                        <view class="weui-label">年份</view>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <picker name="year" bindchange="bindPickerChange2" value="{{index2}}" range="{{year}}">
+                            <view class="weui-input">{{year[index2]}}</view>
+                        </picker>
+                    </view>
+                </view>
+            </view>
+            <view class="button-sp-area">
+                <button class="weui-btn" type="primary" plain="true" formType="submit">提交</button>
+                <button class="weui-btn" type="primary" plain="true" formType="reset">取消</button>
+            </view>
+        </view>
+    </view>
+</form>

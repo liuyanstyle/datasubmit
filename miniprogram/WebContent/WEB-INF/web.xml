@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  
+  
+  <servlet>
+    <servlet-name>WebvisitServlet</servlet-name>
+    <servlet-class>servlet.WebvisitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WebvisitServlet</servlet-name>
+    <url-pattern>/webvisit</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ZyjsServlet</servlet-name>
+    <servlet-class>servlet.ZyjsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ZyjsServlet</servlet-name>
+    <url-pattern>/zyjs</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>KjsyServlet</servlet-name>
+    <servlet-class>servlet.KjsyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>KjsyServlet</servlet-name>
+    <url-pattern>/kjsy</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HzjlServlet</servlet-name>
+    <servlet-class>servlet.HzjlServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HzjlServlet</servlet-name>
+    <url-pattern>/hzjl</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>KjcxcscyServlet</servlet-name>
+    <servlet-class>servlet.KjcxcscyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>KjcxcscyServlet</servlet-name>
+    <url-pattern>/kjcxcscy</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>QwcdServlet</servlet-name>
+    <servlet-class>servlet.QwcdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QwcdServlet</servlet-name>
+    <url-pattern>/qwcd</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>WechatyyServlet</servlet-name>
+    <servlet-class>servlet.WechatyyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WechatyyServlet</servlet-name>
+    <url-pattern>/wechatyy</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>XxsyjyServlet</servlet-name>
+    <servlet-class>servlet.XxsyjyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>XxsyjyServlet</servlet-name>
+    <url-pattern>/xxsyjy</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ZlwhhdServlet</servlet-name>
+    <servlet-class>servlet.ZlwhhdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ZlwhhdServlet</servlet-name>
+    <url-pattern>/zlwhhd</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>GetAlldataServlet</servlet-name>
+    <servlet-class>servlet.GetAlldataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAlldataServlet</servlet-name>
+    <url-pattern>/getalldata</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>CjhyServlet</servlet-name>
+    <servlet-class>servlet.CjhyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CjhyServlet</servlet-name>
+    <url-pattern>/cjhy</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Cbhy_jzServlet</servlet-name>
+    <servlet-class>servlet.Cbhy_jzServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Cbhy_jzServlet</servlet-name>
+    <url-pattern>/cbhy_jz</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>Dj_ghServlet</servlet-name>
+    <servlet-class>servlet.Dj_ghServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DjghServlet</servlet-name>
+    <url-pattern>/dj_gh</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RcdwjsServlet</servlet-name>
+    <servlet-class>servlet.RcdwjsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RcdwjsServlet</servlet-name>
+    <url-pattern>/rcdwjs</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>kfwServlet</servlet-name>
+    <servlet-class>servlet.XkfwServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>XkfwServlet</servlet-name>
+    <url-pattern>/xkfw</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>DzzyfwServlet</servlet-name>
+    <servlet-class>servlet.DzzyfwServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DzzyfwServlet</servlet-name>
+    <url-pattern>/dzzyfw</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>KycgServlet</servlet-name>
+    <servlet-class>servlet.KycgServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>KycgServlet</servlet-name>
+    <url-pattern>/kycg</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>XmqkServlet</servlet-name>
+    <servlet-class>servlet.XmqkServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>XmqkServlet</servlet-name>
+    <url-pattern>/xmqk</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>HjqkServlet</servlet-name>
+    <servlet-class>servlet.HjqkServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HjqkServlet</servlet-name>
+    <url-pattern>/hjqk</url-pattern>
+  </servlet-mapping>
+
+
+
+</web-app>

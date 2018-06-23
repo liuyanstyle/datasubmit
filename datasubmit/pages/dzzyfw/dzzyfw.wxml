@@ -1,0 +1,71 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="page">
+
+    <view class="page__hd">
+      <view class="page__title">电子资源访问</view>
+      <view class="weui-label">操作员:</view>
+    </view>
+
+    <view class="page__bd">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">类型</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="category" bindchange="bindPickerChange" value="{{index}}" range="{{category}}">
+              <view class="weui-input">{{category[index]}}</view>
+            </picker>
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">名称</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="name" placeholder="请输入访问量" />
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">访问量</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="visitNum" placeholder="请输入访问量" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">下载量</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="downloadNum" placeholder="请输入下载量" />
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">年份</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="year" bindchange="bindPickerChange2" value="{{index2}}" range="{{year}}">
+              <view class="weui-input">{{year[index2]}}</view>
+            </picker>
+          </view>
+        </view>
+
+
+
+      </view>
+
+      <view class="button-sp-area">
+        <button type="primary" class="weui-btn" plain="true" formType="submit">提交</button>
+        <button type="primary" class="weui-btn" plain="true" formType="reset">取消</button>
+      </view>
+    </view>
+  </view>
+
+</form>

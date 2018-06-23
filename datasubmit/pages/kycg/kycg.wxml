@@ -1,0 +1,208 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="page">
+
+    <view class="page__hd">
+      <view class="page__title">科研成果</view>
+      <view class="weui-label">操作员:</view>
+    </view>
+
+    <view class="page__bd">
+      <view class="weui-cells weui-cells_after-title">
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">成果名称</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="name" placeholder="请输入名称" />
+          </view>
+        </view>
+
+                <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">奖项级别</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="type" bindchange="bindPickerChange1" value="{{index1}}" range="{{type}}">
+              <view class="weui-input">{{type[index1]}}</view>
+            </picker>
+          </view>
+        </view>
+
+
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">第一作者</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="firstAuthor" placeholder="请输入名字" />
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">成果来源</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="source" placeholder="请输入来源" />
+          </view>
+        </view>
+
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">成果形式</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="form" placeholder="请输入形式" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">发表范围</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="ranger" placeholder="请输入范围" />
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">是否译成外文</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="isTranslate" placeholder="请输入判断" />
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">研究类别</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="studyCategory" placeholder="请输入类别" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">应用情况</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="situation" placeholder="请输入应用情况" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">学科门类</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="subject" placeholder="请输入应用情况" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">出版发表使用单位</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="unitName" placeholder="请输入单位名称" />
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">出版发表使用日期</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker mode="date" name="publishTime" value="{{date}}" start="2017-09-01" end="2027-09-01" bindchange="bindDateChange">
+              <view class="weui-input">{{date}}</view>
+            </picker>
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">ISB或ISSN号</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="issbn" placeholder="请输入ISBN号" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input weui-cell_vcode">
+          <view class="weui-cell__hd">
+            <view class="weui-label">字数</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="wordNum" placeholder="请输入经费" />
+          </view>
+          <view class="weui-cell__vcode">
+            <view class="weui-label">千字</view>
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">论文期刊类别</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="category" placeholder="请输入类别" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">年份</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="year" bindchange="bindPickerChange2" value="{{index2}}" range="{{year}}">
+              <view class="weui-input">{{year[index2]}}</view>
+            </picker>
+          </view>
+        </view>
+
+
+      </view>
+
+
+      <view class="weui-cells__title">其它作者</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <textarea name="otherAuthor" class="weui-textarea" placeholder="请输入人员名单" style="height: 3.3em" />
+            <view class="weui-textarea-counter">0/200</view>
+          </view>
+        </view>
+      </view>
+
+
+      <view class="weui-cells__title">备注</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <textarea name="extra" class="weui-textarea" placeholder="请输入备注" style="height: 3.3em" />
+            <view class="weui-textarea-counter">0/200</view>
+          </view>
+        </view>
+      </view>
+
+      <view class="button-sp-area">
+        <button class="weui-btn" type="primary" plain="true" formType="submit">提交</button>
+        <button class="weui-btn" type="primary" plain="true" formType="reset">取消</button>
+      </view>
+    </view>
+  </view>
+
+</form>

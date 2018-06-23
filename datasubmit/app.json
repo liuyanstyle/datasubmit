@@ -1,0 +1,32 @@
+{
+  "pages": [
+    
+    "pages/index",
+    "pages/cbhy_jz/cbhy_jz",
+    "pages/cjhy/cjhy",
+    "pages/dj&gh/dj&gh",
+    "pages/dzzyfw/dzzyfw",
+    "pages/hjqk/hjqk",
+    "pages/hzjl/hzjl",
+    "pages/kjcxcscy/kjcxcscy",
+    "pages/kjsy/kjsy",
+    "pages/kycg/kycg",
+    "pages/qwcd/qwcd",
+    "pages/rcdwjs/rcdwjs",
+    "pages/webvisit/webvisit",
+    "pages/wechatyy/wechatyy",
+    "pages/xkfw/xkfw",
+    "pages/xmqk/xmqk",
+    "pages/xxsyjy/xxsyjy",
+    "pages/zlwhhd/zlwhhd",
+    "pages/zyjs/zyjs"
+
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

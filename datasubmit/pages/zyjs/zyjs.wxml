@@ -1,0 +1,136 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="page">
+
+    <view class="page__hd">
+      <view class="page__title">资源建设</view>
+       <view class="weui-label">操作员:</view>
+    </view>
+
+    <view class="page__bd">
+      <view class="weui-cells weui-cells_after-title">
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">文献种类</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="category" bindchange="bindPickerChange" value="{{index}}" range="{{category}}">
+              <view class="weui-input">{{category[index]}}</view>
+            </picker>
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">文献类型</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="type" bindchange="bindPickerChange1" value="{{index1}}" range="{{type}}">
+              <view class="weui-input">{{type[index1]}}</view>
+            </picker>
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">文献购置种类</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="purchaseCategoryNum" placeholder="请输入种类" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">文献购置册数</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="purchaseNum" placeholder="请输入册数" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input weui-cell_vcode">
+          <view class="weui-cell__hd">
+            <view class="weui-label">使用经费</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="money" placeholder="请输入经费" />
+          </view>
+          <view class="weui-cell__vcode">
+            <view class="weui-label">万元</view>
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">当年新增</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="thisyearAdd" placeholder="请输入新增数" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">当年续订</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="thisyearRefill" placeholder="请输入续订数" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input weui-cell_vcode">
+          <view class="weui-cell__hd">
+            <view class="weui-label">往年总量</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="formeryearSum" placeholder="请输入往年总量" />
+          </view>
+                    <view class="weui-cell__vcode">
+            <view class="weui-label">万册</view>
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">当年注销</view>
+          </view>
+          <view class="weui-cell__bt">
+            <input class="weui-input" name="logout" placeholder="请输入注销数" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input weui-cell_vcode">
+          <view class="weui-cell__hd">
+            <view class="weui-label">累积总量</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="allSum" placeholder="请输入往年总量" />
+          </view>
+                    <view class="weui-cell__vcode">
+            <view class="weui-label">万册</view>
+          </view>
+        </view>
+
+
+            <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">年份</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="year" bindchange="bindPickerChange2" value="{{index2}}" range="{{year}}">
+              <view class="weui-input">{{year[index2]}}</view>
+            </picker>
+          </view>
+        </view>
+              </view>
+
+      <view class="button-sp-area">
+        <button class="weui-btn" type="primary" plain="true" formType="submit">提交</button>
+        <button class="weui-btn" type="primary" plain="true" formType="reset">取消</button>
+      </view>
+    </view>
+  </view>
+
+</form>

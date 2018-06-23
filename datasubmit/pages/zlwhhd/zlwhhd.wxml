@@ -1,0 +1,108 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="page">
+
+    <view class="page__hd">
+      <view class="page__title">展览/文化活动</view>
+      <view class="weui-label">操作员:</view>
+    </view>
+
+    <view class="page__bd">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">类型</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="category" bindchange="bindPickerChange" value="{{index}}" range="{{category}}">
+              <view class="weui-input">{{category[index]}}</view>
+            </picker>
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label"> 主题</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="theme" placeholder="请输入主题" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">所属品牌</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="appertainBrands" placeholder="请输入品牌" />
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">所属期次</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="appertainPeriod" placeholder="请输入期次" />
+          </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">参与人数</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="peopelSum" placeholder="请输入人数" />
+          </view>
+        </view>
+
+
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">日期</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker mode="date" name="date" value="{{date}}" start="2017-09-01" end="2027-09-01" bindchange="bindDateChange">
+              <view class="weui-input">
+                {{date}}
+              </view>
+            </picker>
+          </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">年份</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="year" mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+              <view class="weui-input">
+                {{multiArray[0][multiIndex[0]]}} {{multiArray[1][multiIndex[1]]}}
+              </view>
+            </picker>
+          </view>
+        </view>
+
+      </view>
+
+      <view class="weui-cells__title">备注</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <textarea name="note" class="weui-textarea" placeholder="请输入备注" style="height: 3.3em" />
+            <view class="weui-textarea-counter">0/200</view>
+          </view>
+        </view>
+      </view>
+
+
+      <view class="button-sp-area">
+        <button type="primary" class="weui-btn" plain="true" formType="submit">提交</button>
+        <button type="primary" class="weui-btn" plain="true" formType="reset">取消</button>
+      </view>
+    </view>
+  </view>
+
+</form>
